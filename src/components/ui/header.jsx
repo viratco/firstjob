@@ -11,16 +11,8 @@ const Header = () => {
                 <Link>
                     <img src="logo.png" className="h-20" />
                 </Link>
-                <Button variant="outline">Login</Button>
-                <SignedOut>
-                    <SignInButton />
-                </SignedOut>
-                <SignedIn>
-                    <Link to="/post-job">
-                        <Button variant="destructive" className="rounded-full"></Button>
-                    </Link>
-                    <UserButton />
-                </SignedIn>
+                
+                
             </nav>
 
         </div>
